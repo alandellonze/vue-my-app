@@ -13,7 +13,16 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
     "build": "node build/build.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alandellonze/vue-my-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alandellonze/vue-my-app/issues"
+  },
+  "homepage": "https://github.com/alandellonze/vue-my-app#readme",
   "dependencies": {
+    "ade-vue-dynamic-form": "^1.0.2",
     "axios": "^0.17.1",
     "vue": "^2.5.2",
     "vue-my-plugin": "^1.0.1",
