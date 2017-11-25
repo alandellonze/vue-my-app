@@ -4,10 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-import MyPlugin from 'vue-my-plugin'
 import VueDynamicForm from 'ade-vue-dynamic-form'
-
-Vue.use(MyPlugin)
 Vue.use(VueDynamicForm)
 
 Vue.config.productionTip = false

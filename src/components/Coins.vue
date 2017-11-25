@@ -3,6 +3,8 @@
     <p>Name: {{ coin.name }}</p>
     <p>Symbol: {{ coin.symbol }}</p>
     <p>Price (USD): {{ coin.price_usd }}</p>
+
+    <router-link to="/">go back</router-link>
   </div>
 </template>
 

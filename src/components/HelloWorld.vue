@@ -4,6 +4,7 @@
 
     <router-link :to="{ name: 'Page2' }">Page2 (by name)</router-link>
     <router-link to="/page2">Page2 (by url)</router-link>
+    <br />
     <router-link to="/coins/bitcoin">Coins bitcoin (by url)</router-link>
     <router-link to="/coins/ethereum">Coins ethereum (by url)</router-link>
   </div>

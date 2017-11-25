@@ -2,6 +2,8 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <df-form :templates="templates" :onSubmit="onSubmit" />
+
+    <router-link to="/">go back</router-link>
   </div>
 </template>
 
